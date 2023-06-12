@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada:wght@300&display=swap');
+.container{
+    background-color: rgb(75, 44, 3);
+    font-family: 'Labrada', serif;
+    color: rgb(212, 189, 160);
+}
+h1{
+    position: absolute;
+    left:622px;
+}
+h2{
+    padding:60px;
+}
+img{
+    position: absolute;
+    left:500px;
+}

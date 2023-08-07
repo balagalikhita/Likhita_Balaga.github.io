@@ -4,7 +4,7 @@
     padding: 0;
 }
 .fullpage{
-    background-color: rgb(75, 44, 3);
+    background-image:linear-gradient(#579BB1,#90becd,#E1D7C6);
     height:500px;
     width:100%;
     font-family: 'Labrada', serif;
@@ -19,7 +19,7 @@ nav ul{
     justify-content: flex-start;
     align-items: center;
     position: absolute;
-right: 369px;
+right: 52px;
 }
 nav ul li{
     list-style: none;
@@ -27,7 +27,7 @@ nav ul li{
     
 }
 nav ul li a{
-    color: rgb(212, 189, 160);
+    color: #E1D7C6;
     text-decoration: none;
     font-size: 20px;
     cursor: pointer;
@@ -54,50 +54,49 @@ right: 131px;
 
         margin: 0  16px 0 200px;
 }
-.btn{
-    border-radius: 6px;
-    width: 73px;
-    height:27px;
-    position: absolute;
-right: -16px;
-padding: 3px;
-margin: 3px;
-color:rgb(75, 44, 3);
-background-color:rgb(242, 198, 141); ;
-}
+
 #name{
     font-size: 23px;
-   color: rgb(212, 189, 160);
+   color:#E1D7C6;
    display: flex;
     align-items: center;
 justify-content: center;
 margin:12px 0;
 padding: 8px;
-font-weight: bold;
+font-weight: bold ;
+
 }
 .pic{
     padding: 64px;
+    /* cursor:pointer;
+    transition: transform 0.3s ease; */
 }
 .pic img{
-    height: 265px;
-
-border-radius: 36px;
-right: 320px;
+    height: 275px;
+border-radius: 154px;
+right: 325px;
 position: absolute;
+border: 4px solid #579BB1;
+filter: drop-shadow(10px 10px 10px #579BB1);
+cursor:pointer;
+    transition: transform 0.3s ease;
 }
 #sp{
     padding: 0px;
     position: absolute;
     left: 433px;
     font-size: 28px;
-    color: #e7d4bb;
+    background: -webkit-linear-gradient(#0a6f91,#579BB1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
 }
 .resumepage{
-    background-color: rgb(242, 198, 141);
+    /* background-color: #ab728a; */
+    background-image:linear-gradient(#E1D7C6,#ECE8DD,#579BB1);
     height:500px;
     width:100%;
     font-family: 'Labrada', serif;
-    color:rgb(75, 44, 3);
+    color:#579BB1;
 
 }
 #resp{
@@ -108,18 +107,18 @@ font-size: 20px;
 }
 #resp a{
     position: absolute;
-left: 96px;
+left: 240px;
 font-size: 23px
 }
 .ws {
-    color: antiquewhite;
+    color: #579BB1;
 padding: 246px;
 position: absolute;
 left: 330px;
 margin: 6px;
 }
 .footer{
-    background-color: rgb(75, 44, 3);
+    background-image:linear-gradient(#579BB1,#90becd,#E1D7C6);
     height:200px;
     width:100%;
     font-family: 'Labrada', serif;
@@ -143,35 +142,44 @@ margin: 6px;
     display:flex;
 }
 .sc1{
-    background-color: rgb(75, 44, 3);
-    color: antiquewhite;
+    background-color: #579BB1;
+    color: #E1D7C6;
     position: absolute;
 left: 70px;
 bottom: -200px;
-width: 300px;
+width: 355px;
 height: 300px;
 border-radius: 26px;
 box-shadow: rgb(143, 84, 6);
+cursor:pointer;
+filter: drop-shadow(10px 10px 10px #579BB1);
+transition: transform 0.3s ease;
 }
 .sc2{
-    background-color: rgb(75, 44, 3);
-    color: antiquewhite;
+    background-color: #579BB1;
+    color: #E1D7C6;
     position: absolute;
 left: 601px;
 bottom: -200px;
-width: 300px;
+width: 355px;
 height: 300px;
 border-radius: 26px;
+cursor:pointer;
+filter: drop-shadow(10px 10px 10px #579BB1);
+transition: transform 0.3s ease;
 }
 .sc3{
-    background-color: rgb(75, 44, 3);
-    color: antiquewhite;
+    background-color: #579BB1;
+    color: #E1D7C6;
     position: absolute;
     left: 1103px;
     bottom: -200px;
-    width: 300px;
+    width: 355px;
     height: 300px;
     border-radius: 26px;
+    cursor:pointer;
+    filter: drop-shadow(10px 10px 10px #579BB1);
+    transition: transform 0.3s ease;
 }
 #scsp{
     padding: 58px;
@@ -180,46 +188,52 @@ font-weight: bold;
 }
 #h3{
     padding: 24px;
-font-size: 12px;
+font-size: 17px;
 }
 .experience{
-    background-color: rgb(75, 44, 3);
+    background-image:linear-gradient(#579BB1,#90becd,#E1D7C6);
     height:500px;
     width:100%;
     color: antiquewhite;
     font-family: 'Labrada', serif;
 }
 .others{
-    background-color: rgb(242, 198, 141);
+    background-image:linear-gradient(#E1D7C6,#ECE8DD,#579BB1);
     height:500px;
     width:100%;
     font-family: 'Labrada', serif;
-    color:rgb(75, 44, 3);
+    color:#579BB1;
 }
 .se1{
-    background-color: rgb(242, 198, 141);
-    color:rgb(75, 44, 3);
+    background-color: #579BB1;
+    color: #E1D7C6;
     position: absolute;
     left: 70px;
     bottom: -680px;
-width: 545px;
-height: 329px;
+    width: 560px;
+    height: 420px;
     border-radius: 26px;
     box-shadow: rgb(143, 84, 6);
+    cursor:pointer;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(10px 10px 10px #579BB1);
 }
 .se2{
-    background-color: rgb(75, 44, 3);
-    color:#e7d4bb;
+    background-color: #579BB1;
+    color: #E1D7C6;
     position: absolute;
     right: 70px;
 bottom: -1152px;
-width: 545px;
-height: 329px;
+width: 560px;
+height: 420px;
     border-radius: 26px;
     box-shadow: rgb(143, 84, 6);
+    cursor:pointer;
+    transition: transform 0.3s ease;
+    filter: drop-shadow(10px 10px 10px #579BB1);
 }
 a{
-    color:white;
+    color:#579BB1;
 }
 .anim iframe{
     position: absolute;
@@ -232,4 +246,502 @@ a{
     right: 500px;
     bottom: -600px;
     border:white;
+}
+
+.fa-brands {
+    padding-left:20px;
+}
+.dot {
+    height: 40px;
+    width: 40px;
+    background-color: #579BB1;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+  }
+  #d1{
+    left: 200px;
+    bottom: -900px;
+    animation-name: example;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  }
+  #d2{
+    left: 300px;
+    animation-name: example3;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  #d3{
+    left: 400px;
+    bottom: -900px;
+    animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  }
+  #d4{
+    left: 500px;
+    animation-name: example4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  #d5{
+    left: 600px;
+    bottom: -900px;
+    animation-name: example2;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  }
+  #d6{
+    left: 700px;
+    animation-name: example5;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  #d7{
+    left: 100px;
+    animation-name: example6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  @keyframes example{
+    0%{left:200px;bottom:-1200px};
+    100%{left:200px;bottom:-900px};
+  }
+  @keyframes example1{
+    0%{left:400px;bottom:-1200px};
+    100%{left:400px;bottom:-900px};
+  }
+  @keyframes example2{
+    0%{left:600px;bottom:-1200px};
+    100%{left:600px;bottom:-900px};
+  }
+  @keyframes example3{
+    0%{left:300px;bottom:-812px};
+    100%{left:300px;bottom:-1200px};
+  }
+  @keyframes example4{
+    0%{left:500px;bottom:-812px};
+    100%{left:500px;bottom:-1200px};
+  }
+  @keyframes example5{
+    0%{left:700px;bottom:-812px};
+    100%{left:700px;bottom:-1200px};
+  }
+  @keyframes example6{
+    0%{left:100px;bottom:-812px};
+    100%{left:100px;bottom:-1200px};
+  }
+ 
+
+.square{
+    height:40px;
+    width:40px;
+    background-color:#579BB1;
+    /* border:solid 6px #0a6f91; */
+    display: inline-block;
+    position: absolute;
+    border-radius: 11px;
+box-shadow: 2px 2px #a4cad9;
+    
+}
+#s1{
+    right:288px;
+    animation-name: box3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+#s2{
+    right:380px;
+    animation-name: box3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+#s3{
+    right: 100px;
+    animation-name: box3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+#s4{
+    right:720px;
+    animation-name: box3;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
+}
+/* @keyframes box{
+0%{right:200px;bottom:-330px};
+25%{right:660px;bottom:-330px};
+50%{right:660px;bottom:-640px};
+75%{right:200px;bottom:-640px};
+100%{right:200px;bottom:-330px};
+}
+@keyframes box1{
+    0%{right:600px;bottom:-400px};
+    25%{right:260px;bottom:-400px};
+    50%{right:260px;bottom:-560px};
+    75%{right:600px;bottom:-560px};
+    100%{right:600px;bottom:-400px};
+    }
+    @keyframes box2{
+        0%{right:100px;bottom:-330px};
+        25%{right:540px;bottom:-440px};
+        50%{right:100px;bottom:-640px};
+        75%{right:320px;bottom:-480px}; 
+        100%{right:100px;bottom:-330px};
+        } */
+@keyframes box3{
+    0%{right:720px;bottom:-640px};
+    20%{right:600px;bottom:-330px};
+    40%{right:480px;bottom:-640px};
+    60%{right:360px;bottom:-330px};
+    80%{right:240px;bottom:-640px};
+    100%{right:120px;bottom:-330px};
+}
+@keyframes jiggle {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  /* Apply animation when the box is hovered or touched */
+  .sc1:hover, .sc1:focus ,.sc2:hover,.sc2:focus,.sc3:hover,.sc3:focus,.se1:hover,.se1:focus,.se2:hover,.se2:focus,.pic:hover,.pic:focus{
+    animation: jiggle 0.6s;
+  }
+  /* @media (max-width: 1531px) {
+    .fullpage {
+      height: 80vh;
+      width: 47vw;
+      left: 0;
+    }
+   */
+    /* .drag {
+      height: 80vh;
+      width: 50vw;
+      left: 47vw;
+    }
+  
+    #dropTarget {
+      width: 20vw;
+      height: 9vh;
+      left: 10vw;
+      top: 13vh;
+    }
+  
+    #resetButton {
+      left: 13vw;
+top: 25vh;
+    }*/
+  
+   
+
+body, html {
+  height: 100%;
+}
+
+/* ... other styles ... */
+
+/* Responsive CSS */
+
+@media (max-width: 768px) {
+  nav ul {
+    right: 20px;
+  }
+
+
+  .pic img {
+    height: 200px;
+    right: 100px;
+  }
+  #sp{
+    font-size: 18px;
+    left:50px;
+    /* position:absolute; */
+  }
+  .ws{
+   left:-100px;
+    top:80px;
+
+  }
+  #resp{
+    font-size: 18px;
+    left:200px;
+    top:400px;
+  }
+  .sc1{
+    top:500px;
+    width:300px;
+    height:250px;
+    filter: drop-shadow(10px 10px 10px #579BB1);
+  }
+  .sc2{
+    top:500px;
+    left:400px;
+    width:300px;
+    height:250px;
+  }
+  .sc3{
+    top:800px;
+    left:80px;
+    width:300px;
+    height:250px;
+  }
+  #h3{
+    font-size:12px;
+  }
+  #se1{
+    top:1070px;
+    height:350px;
+    width:350px;
+
+  }
+  .square{
+    height:20px;
+    width:20px;
+   /* background-color: #060606; */
+  }
+  .dot{
+    height:20px;
+    width:20px;
+    /* top:1150px;
+    left:100px; */
+    background-color:rgb(56, 111, 141);
+}
+#s1{
+
+  animation-name: box;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#s2{
+  animation-name: box;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#s3{
+  animation-name: box;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#s4{
+  animation-name: box;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#d1{
+  top:1150px;
+    left:100px;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+#d2{
+  top:1200px;
+  /* left:100px; */
+  animation-name: example1;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#d3{
+  top:1150px;
+  animation-name: example2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#d4{
+  top:1200px;
+  
+  animation-name: example3;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#d5{
+  top:1150px;
+  animation-name: example4;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+#d6{
+  top:1200px;
+  
+  animation-name: example5;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+#d7{
+  top:1150px;
+  animation-name: example6;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+  0%{left:450px;top:1150px};
+  100%{left:450px;top:1300px};
+}
+@keyframes example1{
+  0%{left:500px;top:1300px};
+  100%{left:500px;top:1150px};
+}
+@keyframes example2{
+  0%{left:550px;top:1150px};
+  100%{left:550px;top:1300px};
+}
+@keyframes example3{
+  0%{left:600px;top:1300px};
+  100%{left:600px;top:1150px};
+}
+@keyframes example4{
+  0%{left:650px;top:1150px};
+  100%{left:650px;top:1300px};
+}
+@keyframes example5{
+  0%{left:700px;top:1300px};
+  100%{left:700px;top:1150px};
+}
+@keyframes example6{
+  0%{left:750px;top:1150px};
+  100%{left:750px;top:1300px};
+}
+@keyframes box{
+  0%{left:400px;top:1000px};
+  20%{left:450px;top:830px};
+  40%{left:500px;top:1000px};
+  60%{left:550px;top:830px};
+  80%{left:600px;top:1000px};
+  100%{left:660px;top:830px};
+}
+
+  /* #s1{
+    top:1150px;
+  }
+  #s2{
+    top:1150px;
+  }
+  #s3{
+    top:1150px;
+  }
+  #s4{
+    top:1150px;
+  } */
+  
+.se2{
+    top:1500px;
+    height:300px;
+}
+
+#foosp{
+    font-size: 12px;
+    bottom:-400px;
+    left:200px;
+   
+}
+.ws1{
+
+    bottom:-550px;
+    left:200px;
+}
+  /* Adjust other styles as needed for smaller screens */
+
+}
+@media (max-width: 480px) {
+  #name{
+    font-size: 16px;
+  }
+  
+
+  nav ul li a {
+    font-size: 14px;
+  }
+
+
+  .pic img {
+    height: 130px;
+    right: 10px;
+  }
+  #sp{
+    font-size: 14px;
+    left:10px;
+  }
+  .ws{
+   left:-200px;
+   top:25px;
+  }
+#resp{font-size: 14px;
+  left: 20px;
+  top: 325px;}
+  .ws a{
+    font-size: 14px;
+  }
+  #resp a{
+    font-size: 14x;
+    top: 10px;
+    left: 274px;
+  }
+  .sc1{
+    top: 390px;
+    
+left: 72px;
+  }
+  .sc2{
+    top: 659px;
+    left: 72px;
+  }
+  .sc3{
+    top: 930px;
+left: 74px;
+  }
+  #se1{
+     top: 1195px;
+left: 54px;
+  }
+  .se2{
+    top: 1565px;
+left: 75px;
+height: 403px;
+width: 300px;
+  }
+  #foosp{
+    bottom: -535px;
+left: 105px;
+  }
+  .ws1{
+    bottom: -656px;
+left: 20px;
+  }
+  .ws1 a{
+   
+color: antiquewhite;
+font-size:12px;
+  }
+  .square{
+    height: 0px;
+  }
+  .dot{
+    height:0px;
+  }
+  #s1{
+
+animation-play-state:paused;
+  }
+  #s2{
+    
+    animation-play-state:paused;
+  }
+  #s3{
+   
+    animation-play-state:paused;
+  }
+  #s4{
+    animation-play-state:paused;
+  }
+  
+
+  /* Adjust other styles as needed for smaller screens */
 }

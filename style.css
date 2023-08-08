@@ -651,18 +651,18 @@ body, html {
 
 }
 @media (max-width: 480px) {
-  #name{
-    font-size: 16px;
+   #name{
+    font-size: 14px;
   }
   
 
   nav ul li a {
-    font-size: 14px;
+    font-size: 12px;
   }
 
 
   .pic img {
-    height: 130px;
+    height: 120px;
     right: 10px;
   }
   #sp{
@@ -670,14 +670,17 @@ body, html {
     left:10px;
   }
   .ws{
-   left:-200px;
+   left:-100px;
    top:25px;
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); 
   }
-#resp{font-size: 14px;
+#resp{font-size: 12px;
   left: 20px;
   top: 325px;}
   .ws a{
-    font-size: 14px;
+    font-size: 8px;
+    
   }
   #resp a{
     font-size: 14x;
@@ -687,36 +690,36 @@ body, html {
   .sc1{
     top: 390px;
     
-left: 72px;
+left: 50px;
   }
   .sc2{
     top: 659px;
-    left: 72px;
+    left: 50px;
   }
   .sc3{
     top: 930px;
-left: 74px;
+left: 50px;
   }
   #se1{
      top: 1195px;
-left: 54px;
+left: 20px;
   }
   .se2{
     top: 1565px;
-left: 75px;
+left: 55px;
 height: 403px;
 width: 300px;
   }
   #foosp{
-    bottom: -535px;
+    bottom: -1200px;
 left: 105px;
   }
   .ws1{
-    bottom: -656px;
+    bottom: -1320px;
 left: 20px;
   }
   .ws1 a{
-   
+    
 color: antiquewhite;
 font-size:12px;
   }
@@ -741,6 +744,7 @@ animation-play-state:paused;
   #s4{
     animation-play-state:paused;
   }
+  
   
 
   /* Adjust other styles as needed for smaller screens */

@@ -2,8 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
-  overflow-y: scroll; 
+
 }
 .fullpage{
     background-image:linear-gradient(#579BB1,#90becd,#E1D7C6);
@@ -712,14 +711,17 @@ left: 55px;
 height: 403px;
 width: 300px;
   }
-  #foosp{
-    bottom: -1500px;
-left: 105px;
-  }
-  .ws1{
-    bottom: -1600px;
-left: 20px;
-  }
+ #foosp{
+    font-size: 12px;
+    bottom:-400px;
+    left:200px;
+   
+}
+.ws1{
+
+    bottom:-550px;
+    left:200px;
+}
   .ws1 a{
     
 color: antiquewhite;

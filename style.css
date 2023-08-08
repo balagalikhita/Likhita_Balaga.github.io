@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+  overflow-y: scroll; 
 }
 .fullpage{
     background-image:linear-gradient(#579BB1,#90becd,#E1D7C6);
